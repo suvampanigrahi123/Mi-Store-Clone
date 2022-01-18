@@ -1,0 +1,98 @@
+.PreFooter {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  padding: 0.5vmax;
+}
+.PreFooterDiv {
+  display: flex;
+  margin: 1vmax;
+  align-items: center;
+}
+.PreFooterDiv > p > span {
+  color: #b0b0b0;
+}
+.PreFooterDiv > p > span:hover {
+  color: black;
+  cursor: pointer;
+}
+.PreFooter2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+.PreFooter2 > div > div > input {
+  border: none;
+  outline: none;
+  background: #f5f5f5;
+}
+#btn {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+.Input {
+  border: 0.2px solid #e0e0e0;
+  width: fit-content;
+}
+.PreFooter2 > div > p > span {
+  font-size: 22px;
+}
+.PreFooter2 > div:nth-child(4) > svg {
+  margin: 1vmax;
+  cursor: pointer;
+  fill: rgba(138, 138, 138, 0.705);
+}
+.MainFooter{
+  background-color: black;
+  display: flex;
+  flex-direction:column;
+}
+
+.Footer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  background-color: black;
+  color: #b0b0b0;
+  padding: 2.1vmax;
+}
+.Footer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1vmax;
+}
+.Footer > div > a {
+  text-decoration: none;
+  color: #b0b0b0;
+  margin: 0.4vmax 0;
+  font-size: 13px;
+}
+.Footer > div > a:hover {
+  color: #f5f5f5;
+}
+.Btn2 {
+  padding: 0.5vmax 2.6vmax;
+  display: block;
+  background: black;
+  color: white;
+  margin: 1.5vmax auto;
+  transition: all 0.5s;
+}
+.Btn2:hover {
+  background-color: #f5f5f5;
+  color: black;
+}
+.Footer > div:nth-child(6) p {
+  font-size: 13px;
+  margin: 2vmax 0px;
+}
+
+.FooterBorder{
+  border-top: 1px solid #b0b0b0;
+  width: 90vw;
+  margin: auto;
+}
+.FooterBorder p:hover{
+  color: white;
+}

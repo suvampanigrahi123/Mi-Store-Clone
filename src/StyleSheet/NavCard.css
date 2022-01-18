@@ -1,0 +1,19 @@
+.NavCard {
+  width: 10vmax;
+  text-align: center;
+}
+.NavCard img {
+  width: 10vmax;
+}
+.navOptions {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.NavCard span {
+  color: orangered;
+}
+.NavCard p {
+  margin: 0;
+  font-size: 12px;
+}

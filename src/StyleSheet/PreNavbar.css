@@ -1,0 +1,25 @@
+.PreNav{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    color: white;
+}
+.PreNav >div{
+    padding: 0.5vmax 4vmax;
+    display: flex;
+    align-items: center;
+}
+.PreNav>div>span{
+    color:rgba(180, 180, 180, 0.644);
+    font-size: 0.8vmax;
+    font-weight: 100;
+}
+.PreNav>div>a{
+    color: grey;
+    text-decoration: none;
+    font-size: 0.9vmax;
+    margin: 1vmax;
+}
+.PreNav>div>a:hover{
+    color: white;   
+}

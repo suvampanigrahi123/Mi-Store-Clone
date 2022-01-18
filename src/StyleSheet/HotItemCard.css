@@ -1,0 +1,18 @@
+.HotItemCard{
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+    width: 31%;
+    background-color: white;
+}
+.HotItemCard>img{
+    width: 71%;
+    transition: all 0.3s;
+}
+.HotItemCard span{
+    color: orangered;
+    margin: -1vmax 0 1vmax 0;
+}
+.HotItemCard>img:hover{
+    box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.353);
+}

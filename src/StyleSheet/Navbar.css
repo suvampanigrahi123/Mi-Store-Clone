@@ -1,0 +1,44 @@
+.Nav {
+  background-color: white;
+  display: flex;
+  padding: 1vmax;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(43, 43, 43, 0.137);
+}
+.NavLinks {
+  color: black;
+  text-decoration: none;
+  margin: 1vmax 1.6vmax;
+  font-weight: 600;
+}
+.NavLinks:hover {
+  color: orangered;
+  text-decoration: none;
+}
+.logo {
+  background: orangered;
+  width: 54px;
+  border-radius: 17px;
+  position: relative;
+  right: 2vmax;
+  overflow: hidden;
+}
+#logoImage {
+  transform: translateX(-56px);
+  transition: all 0.5s;
+}
+#logoImage:hover {
+  transform: translateX(0px);
+}
+.SearchBox {
+  position: relative;
+  left: 5vmax;
+}
+.SearchBox input {
+  border: none;
+  border-bottom: 1px solid;
+  width: 15vmax;
+  outline: none;
+}

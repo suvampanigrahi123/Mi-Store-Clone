@@ -1,0 +1,23 @@
+.ProductReview{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: white;
+}
+.Product>img{
+    margin: 0.7vmax;
+    transition: all 0.5s;
+}
+.Product>img:hover{
+    box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.353);
+    transform: translate(-3px,-3px);
+}
+.Product>div:last-child span{
+    margin: 0 2vmax;
+}
+#price{
+    color: orangered;
+}
+p{
+    margin: 10px 2vmax;
+}
